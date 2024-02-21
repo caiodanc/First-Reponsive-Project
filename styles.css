@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+
+    margin: 47px 0px 0px 42px;
+}
+
+.figure {
+
+    width: 595.18px;
+    height: 500px;
+    display: inline-block;
+    margin-top: 163px;
+    margin-left: 121px;
+}
+
+.link-header {
+
+    text-decoration-line: none;
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+button {
+
+    width: 124px;
+    height: 51px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section {
+
+    display: inline-block;
+    margin-bottom: 102px;
+    margin-left: 84.82px;
+}
+
+h1 {
+
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+
+    width: 493px;
+    height: 99px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #161A49;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+section a {
+
+    width: 112px;
+    height: 27px;
+    text-decoration-line: none;
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 800px) {
+
+
+    a:not(.link-learn) {
+
+        display: none;
+    }
+
+    button {
+
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin-right: 17px;
+        margin-top: 15px;
+    }
+
+    section {
+
+        position: fixed;
+        height: 100%;
+        width: auto;
+        margin-top: 80px;
+        margin-left: 43px;
+        margin-right: 43px;
+        text-align: center;
+    }
+
+    h1 {
+
+
+        font-size: 30px;
+        line-height: 30px;
+        width: auto;
+        height: 60px;
+    }
+
+    p {
+
+        font-size: 18px;
+        line-height: 33px;
+        width: 304px;
+        height: 165px;
+        text-align: center;
+    }
+
+    .link-learn {
+
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .figure {
+
+
+
+        position: absolute;
+        margin: 200px 39px 22px 39px;
+        bottom: 0;
+        height: 30%;
+        width: auto;
+    }
+
+
+
+
+}
